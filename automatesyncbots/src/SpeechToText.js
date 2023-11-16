@@ -38,7 +38,7 @@ const SpeechToText = () => {
                 {isRecording ? 'Stop Recording' : 'Start Recording'}
             </button>
             <div>
-                <strong>Transcript changes for this:</strong> {transcript}
+                <strong>You said:</strong> {transcript}
             </div>
         </div>
     );
